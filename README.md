@@ -30,8 +30,6 @@ If you are developing a production application, we recommend using TypeScript wi
 - Firebase (Auth + Firestore)
 - React Hook Form
 
-## 📁 Folder Structure
-(mention your structure here)
 
 ## 🔥 Future Improvements
 - Orders system
@@ -40,3 +38,5 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## 👨‍💻 Author
 Ajay Sunil
+
+website link - https://olx-clone-c305c.web.app/
