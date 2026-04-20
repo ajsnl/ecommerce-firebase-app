@@ -1,0 +1,81 @@
+/* Page Centering */
+.signup-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f4f5;
+}
+
+/* Card */
+.signup-box {
+  width: 350px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.signup-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #002f34;
+}
+
+/* Inputs */
+.signup-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Input focus */
+.signup-box input:focus {
+  border-color: #002f34;
+  outline: none;
+}
+
+/* Error text */
+.error {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+/* Button */
+.signup-box button {
+  width: 100%;
+  padding: 10px;
+  background: #002f34;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* Button hover */
+.signup-box button:hover {
+  background: #01494f;
+}
+
+/* Login link */
+.login-link {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.login-link a {
+  color: #002f34;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}

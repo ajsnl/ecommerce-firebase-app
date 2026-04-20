@@ -1,0 +1,121 @@
+/* 🔥 Page */
+.cart-page {
+  padding: 30px;
+  background: #f2f4f5;
+  min-height: 100vh;
+}
+
+/* 📦 Layout */
+.cart-container {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/* 🛍 LEFT SIDE */
+.cart-items {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* 🧱 Card */
+.cart-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+}
+
+/* 🖼 Image */
+.cart-card img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* 📝 Info */
+.cart-info {
+  flex: 1;
+}
+
+.cart-info h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.price {
+  color: #002f34;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* ❌ Remove Button */
+.remove-btn {
+  padding: 8px 12px;
+  background: #ff3b3b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background: #d92c2c;
+}
+
+/* 💰 RIGHT SIDE */
+.cart-summary {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  height: fit-content;
+  border: 1px solid #ddd;
+}
+
+/* 📊 Summary Rows */
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+/* 🚀 Checkout */
+.checkout-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background: #002f34;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.checkout-btn:hover {
+  background: #014c54;
+}
+
+/* 🪹 Empty Cart */
+.empty-cart {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.empty-cart button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background: #002f34;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

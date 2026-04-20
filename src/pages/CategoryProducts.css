@@ -1,0 +1,84 @@
+.category-container {
+  padding: 20px;
+}
+
+.category-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.no-products {
+  text-align: center;
+  color: gray;
+}
+
+/* 🔥 GRID */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* 🧱 CARD */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* 🖼 IMAGE */
+.image-container {
+  position: relative;
+}
+
+.product-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+/* ❤️ Wishlist */
+.wishlist {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: white;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+/* 📄 DETAILS */
+.product-details {
+  padding: 10px;
+}
+
+.price {
+  margin: 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 14px;
+  color: #555;
+  height: 40px;
+  overflow: hidden;
+}
+
+.category {
+  font-size: 12px;
+  color: #888;
+}
+
+.location {
+  font-size: 12px;
+  color: #999;
+}

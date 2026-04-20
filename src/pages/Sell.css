@@ -1,0 +1,77 @@
+/* 🔥 Page Background */
+.sell-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background: #f2f4f5;
+  min-height: 100vh;
+}
+
+/* 🧱 Card */
+.sell-card {
+  background: white;
+  padding: 30px;
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* 📝 Heading */
+.sell-card h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* 📄 Form */
+.sell-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* 🔤 Labels */
+.sell-form label {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* 🔲 Inputs */
+.sell-form input,
+.sell-form textarea,
+.sell-form select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* ✏️ Textarea */
+.sell-form textarea {
+  resize: none;
+  height: 80px;
+}
+
+/* ❌ Error */
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: -5px;
+}
+
+/* 🚀 Button */
+.sell-form button {
+  margin-top: 10px;
+  padding: 12px;
+  background: #002f34;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.sell-form button:hover {
+  background: #014c54;
+}
